@@ -6,8 +6,8 @@ const char* ssid = "Hoang Phuc Sau";         // Thay bằng tên WiFi của bạ
 const char* password = "";      // Thay bằng mật khẩu WiFi của bạn
 
 // Địa chỉ server backend đã deploy trên Render
-const char* serverName = "https://esp32nhayled.onrender.com/update";
-
+//const char* serverName = "https://esp32nhayled.onrender.com/update";
+const char* serverName = "https://esp32-led-backend-zjcf.onrender.com/update";
 // Chân kết nối LED
 const int ledPin = 2;  // GPIO2 = LED D2
 
